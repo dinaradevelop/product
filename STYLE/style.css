@@ -665,5 +665,117 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
 }
+#join {
+    padding: 80px 0;
+}
+.join-block {
+    width: 90%;
+    height: 345px;
+    border-radius: 32px;
+    background: #02897A;
+display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.join-block-text h1 {
+    width: 500px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: white;
+    padding-bottom: 75px;
+}
+.join-block-text button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #02897A;
+    background: white;
+    border-radius: 8px;
+    padding: 12px 30px;
+}
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer {
+    padding: 46px 0;
+}
+.footer-general {
+    display: flex;
+    align-items: start;justify-content: space-between;
+}
+.footer-icons {
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+}
+.footer-icons div {
+    width: 40px;
+    height: 40px;
+    background: #edfffc;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+.footer-icons div a{
+    color: #02897A;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    display: flex;
+    flex-direction: column;
+}
+.footer-text h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+}
+.footer-text a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    padding: 8px 0;
+}
+.footer-input h2 {
+    width: 280px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+}
+.footer-input input {
+    padding: 0 10px;
+    background: white;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 305px;
+    height: 48px;
+    margin: 34px 0 21px 0;
+}
+.footer-input button {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: #02897A;
+    border-radius: 4px;
+    padding: 15px 25px;
+}
+.footer-input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footer h1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343d;
+    text-align: center;
+}
 
 
