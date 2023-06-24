@@ -447,10 +447,23 @@ position: sticky;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    transition: .5s;
+    padding-bottom: 25px;
 }
 .price-block:hover {
     background: #02897A;
-    color:#FFFFFF;
+}
+.price-block:hover > .text-one,
+.price-block:hover > .text-two,
+.price-block:hover > .price-gen h3,
+.price-block:hover > .price-gen div p,
+.price-block:hover > .text-three
+{
+    color: #FFFFFF;
+}
+.price-block:hover > .price-btn {
+    background: #FFFFFF;
+    color: #02897A ;
 }
 .price-block h2 {
     font-weight: 700;
@@ -471,7 +484,7 @@ position: sticky;
     font-weight: 700;
     font-size: 76px;
     line-height: 100px;
-    padding: 16px 0;
+    padding-right: 8px ;
 
 }
 .price-gen {
@@ -483,7 +496,7 @@ position: sticky;
 /*    !*display: flex;*!*/
 /*    !*flex-direction: column;*!*/
 /*}*/
-.table-block-text-one {
+.price-gen div p {
     font-weight: 700;
     font-size: 24px;
     color: #02897A;
@@ -491,7 +504,7 @@ position: sticky;
     /*justify-content: flex-start;*/
 
 }
-.table-block-text-two {
+.price-gen div span {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -590,6 +603,67 @@ justify-content: space-between;
   color:  #02897A;
 
 }
+#what {
+    padding: 80px 0;
+}
+.what h1 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343D;
+    text-align: center;
 
+}
+.what p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #22343D;
+    padding: 8px 0 50px 0;
+}
+.what-block {
+    width: 300px;
+    height: 236px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 26px;
+}
+.what-stars ion-icon {
+    color: #F3CD03;
+   font-size: 20px;
+}
+
+.what-block h3{
+    width: 275px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #737373;
+}
+.what-img  div h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #02897A;
+}
+.what-block div h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #252B42;
+}
+.what-img {
+    display: flex;
+    align-items: center;
+}
+.what-img div {
+    padding-left: 14px;
+}
+.what-general {
+    display: flex;
+    justify-content: space-between;
+}
 
 
