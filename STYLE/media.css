@@ -1,0 +1,198 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1140px){
+    .work {
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-block {
+        flex-direction: column;
+        height: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .managment {
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .icon-blocks {
+        display: flex;
+    }
+    .colla {
+        flex-direction: column;
+        text-align: center;
+    }
+    .what-general {
+flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .what-block {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .price-block-general {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-nav{
+        display: none;
+    }
+   .product-general {
+      flex-wrap: wrap;
+       justify-content: space-around;
+   }
+   .product-block{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+   }
+   .footer-general {
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+   .price-block-general {
+       flex-direction: column;
+   }
+   .price-block {
+       margin: 10px 0;
+   }
+   .easy-block-two{
+       flex-direction: row-reverse;
+   }
+}
+
+@media (max-width: 576px) {
+    .work-img {
+        width: 90%;
+    }
+    .managment-img {
+        width: 90%;
+    }
+
+    .colla-img {
+        width: 90%;
+    }
+    .customer-img {
+        width: 90%;
+    }
+    .easy-img {
+        padding-bottom: 20px;
+    }
+    .join-block-text h1 {
+        width: 90%;
+        text-align: center;
+    }
+    .join-block-text{
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .work-text h1 {
+        width: 90%;
+        text-align: center;
+    }
+    .work-text p {
+        width: 90%;
+        text-align: center;
+    }
+    .work-btn{
+        flex-direction: column;
+    }
+    .work-btn button {
+        margin: 8px 0;
+    }
+    .managment-text h4,h1 {
+        width: 90%;
+        text-align: center;
+    }
+    .managment-text p,h3 {
+        width: 90%;
+        text-align: center;
+    }
+    .managment-text h2,h5 {
+        width: 90%;
+        text-align: center;
+    }
+    .managment-text h6 {
+        width: 90%;
+        text-align: center;
+    }
+    .customer-text p {
+        width: 90%;
+    }
+    .colla-text h3 {
+        width: 90%;
+    }
+    .colla-img {
+        padding-top: 20px;
+    }
+    .easy h3 {
+        width: 90%;
+        text-align: center;
+    }
+    .price-block-general {
+        flex-direction: column;
+
+    }
+    .product h1 {
+        width: 90%;
+        text-align: center;
+    }
+    .footer-text {
+        flex-wrap: wrap;
+    }
+    .join-img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 425px) {
+    .easy-block {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 420px) {
+    
+}
+
+@media (max-width: 400px ) {
+    
+}
+
+@media (max-width: 375px) {
+    .footer-general {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+.footer-input input {
+    width: 90%;
+}
+}
+
+
